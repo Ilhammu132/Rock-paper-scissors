@@ -1,0 +1,64 @@
+:root {
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+}
+
+.container {
+  position: absolute;
+  color: white;
+  border: 1px solid #b6895b;
+  font-size: 30rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.nav img {
+  position: absolute;
+  border: 1px solid #b6895b;
+  width: 400px;
+  height: auto;
+}
+
+.nav .scissors {
+  top: 10rem;
+  left: 3rem;
+  cursor: pointer;
+}
+
+.nav .rock {
+  top: 10rem;
+  right: 35rem;
+  cursor: pointer;
+}
+
+.nav .paper {
+  top: 10rem;
+  right: 1rem;
+  cursor: pointer;
+}
